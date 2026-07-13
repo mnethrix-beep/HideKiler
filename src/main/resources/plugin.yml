@@ -1,0 +1,15 @@
+name: HideKiler
+version: 1.0
+main: com.netrix.HIDEKILER.HIDEKILER
+api-version: '1.21'
+author: its_nethrix
+description: Premium Among Us style game plugin built for public SMP.
+commands:
+  hk:
+    description: HideKiler main setup command.
+    permission: hidekiler.admin
+    usage: /hk [setlobby|setstartroom|setmeeting|start]
+  vote:
+    description: Vote for a suspect player during an emergency meeting.
+    usage: /vote <PlayerName>
+    
